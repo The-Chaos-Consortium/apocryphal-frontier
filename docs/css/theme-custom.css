@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Ultra&display=swap');
+
+:root {
+    --base-background-color: #181a1b;
+    --base-color: #fff;
+    --base-font-family: 'Alegreya', serif;
+    --base-font-size: 19px;
+    --sidebar-name-font-family: 'Ultra', serif;
+    --sidebar-name-font-size: 38px;
+    --search-input-font-size: 16px; 
+    --theme-color: #FF2400;
+
+    /* Headings */
+    --heading-font-family: 'Ultra', serif;
+    --heading-h1-font-size: var(--font-size-xxxl);
+    /* --heading-h1-font-weight: 600; */
+    --heading-h2-font-size: var(--font-size-xxl);
+    /* --heading-h2-font-weight: 600; */
+    --heading-h3-font-size: var(--font-size-xl);
+    /* --heading-h3-font-weight: 600; */
+    --heading-h4-font-size: var(--font-size-l);
+    /* --heading-h4-font-weight: 600; */
+    --heading-h2-border-style: none;
+}
+
+.sidebar {
+    background-color: var(--base-background-color);
+}
+
+.markdown-section h2 {
+    padding: 0;
+    margin-bottom: 0;
+}
