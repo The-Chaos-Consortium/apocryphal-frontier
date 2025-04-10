@@ -12,14 +12,14 @@
 
     /* Headings */
     --heading-font-family: 'Ultra', serif;
-    --heading-h1-font-size: var(--font-size-xxxl);
-    /* --heading-h1-font-weight: 600; */
-    --heading-h2-font-size: var(--font-size-xxl);
-    /* --heading-h2-font-weight: 600; */
-    --heading-h3-font-size: var(--font-size-xl);
-    /* --heading-h3-font-weight: 600; */
-    --heading-h4-font-size: var(--font-size-l);
-    /* --heading-h4-font-weight: 600; */
+    /* --heading-h1-font-size: var(--font-size-xxxl); */
+    --heading-h1-font-weight: 400;
+    /* --heading-h2-font-size: var(--font-size-xxl); */
+    --heading-h2-font-weight: 400;
+    /* --heading-h3-font-size: var(--font-size-xl); */
+    --heading-h3-font-weight: 400;
+    /* --heading-h4-font-size: var(--font-size-l); */
+    --heading-h4-font-weight: 400;
     --heading-h2-border-style: none;
 }
 
