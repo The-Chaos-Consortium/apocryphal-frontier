@@ -1,0 +1,1 @@
+A day of mounted travel is 30 miles on average. Plains and flatlands are 45 miles, while mountains and hills are 15 miles.

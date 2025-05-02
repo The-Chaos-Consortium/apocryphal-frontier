@@ -1,0 +1,1 @@
+Fame starts at 0 and can only go up. Honor starts at 0 and can go down to -3 or up to 3.
