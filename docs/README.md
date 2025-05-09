@@ -1,2 +1,2 @@
-# Blood & Whiskey
-Blood & Whiskey System Reference Document
+# Apocryphal Frontier
+Apocryphal Frontier System Reference Document
