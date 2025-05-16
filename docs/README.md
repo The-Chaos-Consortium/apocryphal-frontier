@@ -1,7 +1,7 @@
 # Apocryphal Frontier
 Apocryphal Frontier System Reference Document
 
-***Written by*** Alexander Gomez
+**Written by** Alexander Gomez
 
 ## Inspirations
 Games: *Red Dead Redemption 1 & 2*
