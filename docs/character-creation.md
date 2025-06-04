@@ -1,9 +1,9 @@
 # Character Creation
 ## Ability Scores
 Each player character (PC) has three ability scores.
-- Strength (STR) - Power, endurance and melee fighting.
-- Dexterity (DEX) - Grace, finesse and shooting.
-- Luck (LCK) - Gambling, not getting shot, fate.
+- Strength (STR) - Power, endurance, resisting poison, etc.
+- Dexterity (DEX) - Grace, finesse, dodging, etc.
+- Luck (LCK) - Gambling, not getting shot, fate, etc.
 
 For each of these **roll 3d6** to determine each of your PC’s ability scores. This will give a range of **3 to 18** for each ability score, with **10** being average. You may swap any two of the results.
 ## Grit
