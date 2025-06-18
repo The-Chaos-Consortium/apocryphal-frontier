@@ -15,3 +15,8 @@ In an opposed situation, whoever is most at risk must save. Whenever two or more
 ### Rest & Healing
 
 ### Fatigue & Deprivation
+Each point of **fatigue** occupies 1 inventory slot. You may gain fatigue when deprived, when using certain items, due to an enemy's action, or because of something else in the fiction.
+
+## Combat
+
+## Scars
