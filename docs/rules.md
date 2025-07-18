@@ -13,7 +13,8 @@ The Judge can also ask a player to make a save to determine if a PC is able to r
 
 In an opposed situation, whoever is most at risk must save. Whenever two or more characters are doing something together, whoever is most at risk must save. This is normally the character with the lowest ability score.
 ### Rest & Healing
-
+All lost Grit can be regained after a short momentary rest and a drink of water, but may expose the party in a dangerous situation. Bandages are needed to stabilize a character who has taken critical damage.
+Ability loss can be regained after a week's rest supervised by a doctor or equivalent expert.
 ### Fatigue & Deprivation
 Each point of **fatigue** occupies 1 inventory slot. You may gain fatigue when deprived, when using certain items, due to an enemy's action, or because of something else in the fiction.
 
