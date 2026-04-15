@@ -1,1 +1,4 @@
 .obsidian
+site/
+.cache/
+.codex
