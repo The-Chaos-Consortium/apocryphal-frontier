@@ -103,14 +103,49 @@ jobs:
 
           echo "tag=${tag}" >> "$GITHUB_OUTPUT"
           echo "created=true" >> "$GITHUB_OUTPUT"
+      - name: Generate release notes
+        id: notes
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ steps.calver.outputs.tag }}
+          GITHUB_SERVER_URL: ${{ github.server_url }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          current_commit="$(git rev-list -n 1 "${RELEASE_TAG}")"
+          previous_tag="$(git describe --tags --abbrev=0 "${current_commit}^" 2>/dev/null || true)"
+          commit_url_base="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit"
+
+          if [[ -n "${previous_tag}" ]]; then
+            release_range="${previous_tag}..${RELEASE_TAG}"
+          else
+            release_range="${RELEASE_TAG}"
+          fi
+
+          release_body="$(git log \
+            --format="- %s ([\`%h\`](${commit_url_base}/%H))" \
+            "${release_range}")"
+
+          if [[ -z "${release_body}" ]]; then
+            release_body="- No changes listed for this release."
+          fi
+
+          {
+            echo "body<<EOF"
+            echo "${release_body}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Publish GitHub release
         uses: actions/github-script@v8
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN || github.token }}
           RELEASE_TAG: ${{ steps.calver.outputs.tag }}
+          RELEASE_BODY: ${{ steps.notes.outputs.body }}
         with:
           script: |
             const tag = process.env.RELEASE_TAG;
+            const body = process.env.RELEASE_BODY;
             const { owner, repo } = context.repo;
 
             try {
@@ -119,7 +154,15 @@ jobs:
                 repo,
                 tag,
               });
-              core.info(`Release already exists for ${tag}: ${existing.data.html_url}`);
+              const release = await github.rest.repos.updateRelease({
+                owner,
+                repo,
+                release_id: existing.data.id,
+                tag_name: tag,
+                name: `${tag}`,
+                body,
+              });
+              core.info(`Updated release ${release.data.html_url}`);
               return;
             } catch (error) {
               if (error.status !== 404) {
@@ -131,8 +174,8 @@ jobs:
               owner,
               repo,
               tag_name: tag,
-              name: `Release ${tag}`,
-              generate_release_notes: true,
+              name: `${tag}`,
+              body,
             });
 
             core.info(`Created release ${release.data.html_url}`);
