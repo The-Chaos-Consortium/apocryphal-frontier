@@ -12,6 +12,7 @@
     --md-accent-fg-color--transparent: rgb(227 66 52 / 0.14);
     --md-accent-bg-color: #ffffff;
     --md-accent-bg-color--light: rgb(255 255 255 / 0.7);
+    --md-default-fg-color: hsla(0, 0%, 100%, .80);
 }
 
 body,

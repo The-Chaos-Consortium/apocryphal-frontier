@@ -2,6 +2,8 @@
 site_name = "Apocryphal Frontier"
 site_description = "System Reference Document for Apocryphal Frontier"
 site_url = "https://srd.apocryphalfrontier.com"
+repo_url = "https://github.com/The-Chaos-Consortium/apocryphal-frontier"
+repo_name = "The-Chaos-Consortium/apocryphal-frontier"
 docs_dir = "docs"
 site_dir = "site"
 copyright = "Copyright &copy; 2026 The Chaos Consortium & A.T. Gomez. Licensed under CC-BY-SA 4.0. Apocryphal Frontier&trade; is a trademark of The Chaos Consortium."
@@ -61,7 +63,3 @@ alternate_style = true
 custom_checkbox = true
 [project.markdown_extensions.toc]
 permalink = true
-
-# Zensical's current docs don't expose TOML settings for the previous MkDocs
-# search separator override or the older search.share/search.suggest flags, so
-# they're intentionally omitted here rather than guessed.
