@@ -37,6 +37,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 | 3. Corpulent |  8. Ripped  |  13. Slender   | 18. Towering |
 | 4. Delicate  |  9. Rugged  |   14. Flabby   | 19. Willowy  |
 |   5. Gaunt   | 10. Scrawny | 15. Statuesque |   20. Wiry   |
+
 ### Face
 |             |              |             |             |
 | :---------: | :----------: | :---------: | :---------: |
@@ -45,6 +46,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 |   3. Bony   |  8. Pinched  | 13. Ratlike | 18. Square  |
 | 4. Chiseled |  9. Hawkish  |  14. Round  |  19. Wide   |
 | 5. Delicate |  10. Broken  | 15. Sunken  | 20. Wolfish |
+
 ### Skin
 |                |                |              |               |
 | :------------: | :------------: | :----------: | :-----------: |
@@ -53,6 +55,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 |  3. Burn Scar  |   8. Perfect   |   13. Rosy   | 18. War Paint |
 |    4. Dark     |   9. Pierced   |  14. Rough   | 19. Weathered |
 |   5. Makeup    | 10. Pockmarked |  15. Sallow  | 20. Whip Scar |
+
 ### Hair
 |            |               |               |              |
 | :--------: | :-----------: | :-----------: | :----------: |
@@ -61,6 +64,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 | 3. Bristly |   8. Filthy   | 13. Luxurious | 18. Topknot  |
 | 4. Cropped |   9. Frizzy   |  14. Mohawk   |   19. Wavy   |
 |  5. Curly  |  10. Greased  |   15. Oily    |  20. Wispy   |
+
 ### Clothing
 |               |                |               |                |
 | :-----------: | :------------: | :-----------: | :------------: |
@@ -69,6 +73,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 | 3. Ceremonial |   8. Filthy    |  13. Frumpy   |   18. Rancid   |
 | 4. Decorated  | 9. Flamboyant  |  14. Livery   |    19. Torn    |
 | 5. Eccentric  |  10. Stained   | 15. Oversized | 20. Undersized |
+
 ### Virtue
 |               |                |                |               |
 | :-----------: | :------------: | :------------: | :-----------: |
@@ -77,6 +82,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 | 3. Courageous |  8. Generous   | 13. Idealistic |  18. Serene   |
 | 4. Courteous  | 9. Gregarious  |    14. Just    |   19. Stoic   |
 |  5. Curious   |   10. Honest   |   15. Loyal    | 20. Tolerant  |
+
 ### Vice
 |               |               |                |                |
 | :-----------: | :-----------: | :------------: | :------------: |
@@ -85,6 +91,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 |   3. Bitter   | 8. Gluttonous | 13. Prejudiced |  18. Vengeful  |
 |  4. Cowardly  |   9. Greedy   |  14. Reckless  |  19. Wasteful  |
 |   5. Cruel    | 10. Irascible |    15. Rude    |   20. Whiny    |
+
 ### Speech
 |             |             |                |                |
 | :---------: | :---------: | :------------: | :------------: |
@@ -93,6 +100,7 @@ Create or roll the rest of your PC's traits, such as their physique, face, skin,
 | 3. Breathy  |  8. Formal  |   13. Quaint   |  18. Squeaky   |
 | 4. Cryptic  | 9. Gravelly |  14. Rambling  | 19. Stuttering |
 | 5. Drawling | 10. Hoarse  | 15. Rapid-fire |  20. Whispery  |
+
 ### Misfortune
 |                |                |               |               |
 | :------------: | :------------: | :-----------: | :-----------: |
